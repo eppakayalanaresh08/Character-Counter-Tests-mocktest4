@@ -1,0 +1,82 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-left {
+  width: 40%;
+  background-color: #ffc533;
+  height: 90vh;
+}
+
+.heading-container-leftCounter {
+  background-color: #ffbf1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading-count {
+  text-align: center;
+}
+
+.container-image {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-right {
+  width: 40%;
+  background-color: #0f172a;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.user-input {
+  width: 600px;
+}
+
+.container-heading {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  /* align-items: flex-start; */
+}
+
+.counter-heading {
+  color: #ffbf1f;
+}
+
+.input-container {
+  display: flex;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.input-Element {
+  height: 33px;
+  width: 100%;
+}
+
+.add-button {
+  background-color: #ffc533;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.lists-names {
+  display: flex;
+  flex-direction: column;
+}
